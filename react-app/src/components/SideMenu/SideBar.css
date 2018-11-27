@@ -256,7 +256,7 @@
     border-style: solid;
     border-color: #e2e2e2;
     background: #f5f5f5;
-    display: none !important;
+    display: none;
 }
 
 .side_menu_active.side_menu_collapsed #main_menu .has_submenu > ul li:first-child {
