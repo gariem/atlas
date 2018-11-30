@@ -14,26 +14,35 @@ const menuItems = [
     },
     {
         id: 1,
-        title: 'Maintenance',
-        icon: 'icon_document_alt first_level_icon',
-        submenu_title: 'Maintenance',
+        title: 'Models',
+        icon: 'icon_lightbulb_alt first_level_icon',
+        submenu_title: 'Models',
         submenu: [
-            {title: 'Tasks', link: '/tasks'},
-            {title: 'Transfers', link: '/transfer'},
-            {title: 'Submenu 3', link: '#'},
+            {title: 'CNNs', link: '#'},
+            {title: 'LSTMs', link: '#'},
+            {title: 'RNNs', link: '#'},
         ]
     },
     {
         id: 2,
-        title: 'Pages',
+        title: 'Tools',
+        icon: 'icon_toolbox_alt first_level_icon',
+        submenu_title: 'Image Tools',
+        submenu: [
+            {title: 'Simple tagging', link: '#'},
+            {title: 'Patch generation', link: '#'},
+            {title: 'Masks / Regions', link: '#'},
+        ]
+    },
+    {
+        id: 3,
+        title: 'Catalogs',
         icon: 'icon_folder-alt first_level_icon',
         badge: true,
         submenu_title: 'Pages',
         submenu: [
-            {title: 'Login', link: '/login'},
-            {title: 'Submenu 2', link: '#'},
-            {title: 'Submenu 3', link: '#'},
-            {title: 'Submenu 4', link: '#'},
+            {title: 'Raw Catalogs', link: '/catalogs/raw'},
+            {title: 'Refined Catalogs', link: '/catalogs/refined'}
         ]
     }];
 
